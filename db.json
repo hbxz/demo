@@ -1,14 +1,8 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "service-fee": [
+    { "id": 1, "hirer": 0.5, "poster": 0.0, "updated-by": "admin0@sparestaff.com.au" },
+    { "id": 2, "hirer": 5.5, "poster": 1.0, "updated-by": "admin1@sparestaff.com.au" },
+    { "id": 3, "hirer": 10, "poster": 2.0, "updated-by": "admin2@sparestaff.com.au" },
+    { "id": 4, "hirer": 15, "poster": 3.0, "updated-by": "admin3@sparestaff.com.au" }
+  ]
 }
