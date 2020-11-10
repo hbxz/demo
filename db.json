@@ -1,8 +1,8 @@
 {
   "service-fee": [
-    { "id": 1, "hirer": 0.5, "poster": 0.0, "updated-by": "admin0@sparestaff.com.au" },
-    { "id": 2, "hirer": 5.5, "poster": 1.0, "updated-by": "admin1@sparestaff.com.au" },
-    { "id": 3, "hirer": 10, "poster": 2.0, "updated-by": "admin2@sparestaff.com.au" },
-    { "id": 4, "hirer": 15, "poster": 3.0, "updated-by": "admin3@sparestaff.com.au" }
+    { "id": 1, "hirerServiceFee": 0.5, "posterServiceFee": 0.0, "updated-by": "admin0@sparestaff.com.au" },
+    { "id": 2, "hirerServiceFee": 5.5, "posterServiceFee": 1.0, "updated-by": "admin1@sparestaff.com.au" },
+    { "id": 3, "hirerServiceFee": 10, "posterServiceFee": 2.0, "updated-by": "admin2@sparestaff.com.au" },
+    { "id": 4, "hirerServiceFee": 15, "posterServiceFee": 3.0, "updated-by": "admin3@sparestaff.com.au" }
   ]
 }
