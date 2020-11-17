@@ -9,6 +9,26 @@
     "profilePhoto": {
       "url": "https://s3-ap-southeast-2.amazonaws.com/sparestaff-staging/sparestaff/employee_listings/profile_pictures/000/000/212/original/data?1602762876",
       "public_id": "fake-public_id-profilePhoto"
+    },
+    "detail": {
+      "title": "fake title",
+      "firstName": "Jason",
+      "lastName": "Den",
+      "tfn": "fake ftn",
+      "yearOfBirth": "",
+      "suburb": "Newtown",
+      "nationalState": "NSW",
+      "postcode": 2042,
+      "country": "Australia",
+      "residencyStatus": "Working Visa",
+      "specifiedStatus": "485 PSW visa, expiry on Oct/2022",
+      "idVerification": "OK",
+      "idImage": {
+        "url": "https://s3-ap-southeast-2.amazonaws.com/sparestaff-staging/sparestaff/employee_listings/profile_pictures/000/000/212/original/data?1602762876",
+        "public_id": "fake-public_id-idImage"
+      },
+      "vehicle": true,
+      "gender": "Male"
     }
   },
   "example-hiring": {
@@ -116,5 +136,38 @@
     "hirerServiceFee": 0,
     "posterServiceFee": 10,
     "createdAt": "17 Nov 2020"
-  }
+  },
+  "example-employee": {
+    "email": "jason.den.cloud@gmail.com",
+    "firstName": "Jason",
+    "lastName": "Den",
+    "verified": true
+  },
+  "example-poster": {
+    "email": "jason.den.cloud@gmail.com",
+    "firstName": "Jason",
+    "lastName": "Den",
+    "verified": true
+  },
+  "example-hirer": {
+    "email": "james.nguyen@sparestaff.com.au",
+    "firstName": "James",
+    "lastName": "Nguyen",
+    "verified": true
+  },
+
+  "ReviewAspectsHirerOnEployee": [
+    { "label": "Friendliness", "description": "Was the employee friendly?" },
+    {
+      "label": "Punctuality",
+      "description": "Was the employee always on-time?"
+    },
+    {
+      "label": "Professionalism",
+      "description": "Overall attitude, accountability, teamwork, behaviour, presentability"
+    },
+    { "label": "Knowledge & Skills", "description": "Was the employee skilful and knowledgeable at the job?" },
+    { "label": "Communication", "description": "How well the employee communicate with others?" },
+    { "label": "Management Skills", "description": "Was the employee good at managing team, making decision?" }
+  ]
 }
