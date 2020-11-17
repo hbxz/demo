@@ -5,111 +5,109 @@
     { "id": 3, "hirerServiceFee": 10, "posterServiceFee": 2.0, "updated-by": "admin2@sparestaff.com.au" },
     { "id": 4, "hirerServiceFee": 15, "posterServiceFee": 3.0, "updated-by": "admin3@sparestaff.com.au" }
   ],
-  "hirings": [
-    {
-      "slug": "example-hiring-slug",
-      "status": "inprogress",
-      "listing": "2dcd9edf-d837-4cf2-92c8-f88399072e8e",
-      "hirer": "5fa20fdbc30bff4419fbfb35",
-      "period": {
-        "start": "17 Nov 2020",
-        "end": "24 Nov 2020"
-      },
-      "timeframe": {
-        "monday": {
-          "start": {
-            "type": "9:00"
-          },
-          "end": {
-            "type": "16:00"
-          },
-          "notAvailable": {
-            "type": false
-          }
+  "example-hirings": {
+    "slug": "example-hiring-slug",
+    "status": "inprogress",
+    "listing": "2dcd9edf-d837-4cf2-92c8-f88399072e8e",
+    "hirer": "5fa20fdbc30bff4419fbfb35",
+    "period": {
+      "start": "17 Nov 2020",
+      "end": "24 Nov 2020"
+    },
+    "timeframe": {
+      "monday": {
+        "start": {
+          "type": "9:00"
         },
-        "tuesday": {
-          "start": {
-            "type": "9:00"
-          },
-          "end": {
-            "type": "16:00"
-          },
-          "notAvailable": {
-            "type": false
-          }
+        "end": {
+          "type": "16:00"
         },
-        "wednesday": {
-          "start": {
-            "type": "9:00"
-          },
-          "end": {
-            "type": "16:00"
-          },
-          "notAvailable": {
-            "type": false
-          }
-        },
-        "thursday": {
-          "start": {
-            "type": "9:00"
-          },
-          "end": {
-            "type": "16:00"
-          },
-          "notAvailable": {
-            "type": false
-          }
-        },
-        "friday": {
-          "start": {
-            "type": "9:00"
-          },
-          "end": {
-            "type": "16:00"
-          },
-          "notAvailable": {
-            "type": false
-          }
-        },
-        "saturday": {
-          "start": {
-            "type": "9:00"
-          },
-          "end": {
-            "type": "16:00"
-          },
-          "notAvailable": {
-            "type": false
-          }
-        },
-        "sunday": {
-          "start": {
-            "type": "9:00"
-          },
-          "end": {
-            "type": "16:00"
-          },
-          "notAvailable": {
-            "type": false
-          }
+        "notAvailable": {
+          "type": false
         }
       },
-      "weeklyWage": 450,
-      "hireDetail": {
-        "jobTitle": "Full-stack developer",
-        "companyName": "Spare Staff",
-        "hirerRole": "manager",
-        "suburb": "Newtown",
-        "nationalState": "NSW",
-        "postcode": 2018,
-        "country": "Australia",
-        "probation": "3 month",
-        "message": ""
+      "tuesday": {
+        "start": {
+          "type": "9:00"
+        },
+        "end": {
+          "type": "16:00"
+        },
+        "notAvailable": {
+          "type": false
+        }
       },
-      "paymentMethod": "credit card",
-      "hirerServiceFee": 0,
-      "posterServiceFee": 10,
-      "createdAt": "17 Nov 2020"
-    }
-  ]
+      "wednesday": {
+        "start": {
+          "type": "9:00"
+        },
+        "end": {
+          "type": "16:00"
+        },
+        "notAvailable": {
+          "type": false
+        }
+      },
+      "thursday": {
+        "start": {
+          "type": "9:00"
+        },
+        "end": {
+          "type": "16:00"
+        },
+        "notAvailable": {
+          "type": false
+        }
+      },
+      "friday": {
+        "start": {
+          "type": "9:00"
+        },
+        "end": {
+          "type": "16:00"
+        },
+        "notAvailable": {
+          "type": false
+        }
+      },
+      "saturday": {
+        "start": {
+          "type": "9:00"
+        },
+        "end": {
+          "type": "16:00"
+        },
+        "notAvailable": {
+          "type": false
+        }
+      },
+      "sunday": {
+        "start": {
+          "type": "9:00"
+        },
+        "end": {
+          "type": "16:00"
+        },
+        "notAvailable": {
+          "type": false
+        }
+      }
+    },
+    "weeklyWage": 450,
+    "hireDetail": {
+      "jobTitle": "Full-stack developer",
+      "companyName": "Spare Staff",
+      "hirerRole": "manager",
+      "suburb": "Newtown",
+      "nationalState": "NSW",
+      "postcode": 2018,
+      "country": "Australia",
+      "probation": "3 month",
+      "message": ""
+    },
+    "paymentMethod": "credit card",
+    "hirerServiceFee": 0,
+    "posterServiceFee": 10,
+    "createdAt": "17 Nov 2020"
+  }
 }
