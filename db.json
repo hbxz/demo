@@ -6,6 +6,7 @@
     { "id": 4, "hirerServiceFee": 15, "posterServiceFee": 3.0, "updated-by": "admin3@sparestaff.com.au" }
   ],
   "hirings": {
+    "example-hiring-empty" : {},
     "example-hiring-slug": {
       "slug": "example-hiring-slug",
       "status": "inprogress",
