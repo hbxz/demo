@@ -5,7 +5,13 @@
     { "id": 3, "hirerServiceFee": 10, "posterServiceFee": 2.0, "updated-by": "admin2@sparestaff.com.au" },
     { "id": 4, "hirerServiceFee": 15, "posterServiceFee": 3.0, "updated-by": "admin3@sparestaff.com.au" }
   ],
-  "example-hirings": {
+  "example-listing": {
+    "profilePhoto": {
+      "url": "https://s3-ap-southeast-2.amazonaws.com/sparestaff-staging/sparestaff/employee_listings/profile_pictures/000/000/212/original/data?1602762876",
+      "public_id": "fake-public_id-profilePhoto"
+    }
+  },
+  "example-hiring": {
     "id": "demo-hiring-id",
     "slug": "demo-hiring-slug",
     "status": "inprogress",
