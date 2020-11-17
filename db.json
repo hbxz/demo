@@ -6,7 +6,8 @@
     { "id": 4, "hirerServiceFee": 15, "posterServiceFee": 3.0, "updated-by": "admin3@sparestaff.com.au" }
   ],
   "example-hirings": {
-    "slug": "example-hiring-slug",
+    "id": "demo-hiring-id",
+    "slug": "demo-hiring-slug",
     "status": "inprogress",
     "listing": "2dcd9edf-d837-4cf2-92c8-f88399072e8e",
     "hirer": "5fa20fdbc30bff4419fbfb35",
