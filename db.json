@@ -5,9 +5,8 @@
     { "id": 3, "hirerServiceFee": 10, "posterServiceFee": 2.0, "updated-by": "admin2@sparestaff.com.au" },
     { "id": 4, "hirerServiceFee": 15, "posterServiceFee": 3.0, "updated-by": "admin3@sparestaff.com.au" }
   ],
-  "hirings": {
-    "example-hiring-empty" : {},
-    "example-hiring-slug": {
+  "hirings": [
+    {
       "slug": "example-hiring-slug",
       "status": "inprogress",
       "listing": "2dcd9edf-d837-4cf2-92c8-f88399072e8e",
@@ -112,5 +111,7 @@
       "posterServiceFee": 10,
       "createdAt": "17 Nov 2020"
     }
+  ]
+    
   }
 }
