@@ -7,7 +7,7 @@
   ],
   "example-listing": {
     "profilePhoto": {
-      "url": "https://s3-ap-southeast-2.amazonaws.com/sparestaff-staging/sparestaff/employee_listings/profile_pictures/000/000/212/original/data?1602762876",
+      "url": "https://pickaface.net/gallery/avatar/Soapandbath536ce87ad99ef.png",
       "public_id": "fake-public_id-profilePhoto"
     },
     "detail": {
@@ -37,9 +37,10 @@
     "status": "inprogress",
     "listing": "2dcd9edf-d837-4cf2-92c8-f88399072e8e",
     "hirer": "5fa20fdbc30bff4419fbfb35",
+    "poster": "5fa20fdbc30bff4419fbfb35",
     "period": {
-      "start": "17 Nov 2020",
-      "end": "24 Nov 2020"
+      "start": "20201117",
+      "end": "20201231"
     },
     "timeframe": {
       "monday": {
@@ -135,7 +136,8 @@
     "paymentMethod": "credit card",
     "hirerServiceFee": 0,
     "posterServiceFee": 10,
-    "createdAt": "17 Nov 2020"
+    "createdAt": "17 Nov 2020",
+    "escrow": 271.5
   },
   "example-employee": {
     "email": "jason.den.cloud@gmail.com",
@@ -156,7 +158,7 @@
     "verified": true
   },
 
-  "ReviewAspectsHirerOnEployee": [
+  "ReviewAspectsHirerOnEmployee": [
     { "label": "Friendliness", "description": "Was the employee friendly?" },
     {
       "label": "Punctuality",
